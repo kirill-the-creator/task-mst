@@ -1,0 +1,30 @@
+body {
+    background: black;
+}
+.parent{
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+video{
+    display: block;
+    max-width: 100%;
+}
+video{
+    display: block;
+    width: inherit;
+    height: inherit;
+}
+.block_svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+.text_svg{
+    font-size: 20px;
+    fill: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}

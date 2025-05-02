@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>task mst</title>
+</head>
+<body>
+<div class="parent">
+    <div class="block_video">
+        <video src="video.mp4" muted autoplay loop></video>
+    </div>
+
+    <div class="block_svg">
+        <svg viewBox="0 0 480 270">
+            <rect width="100%" height="100%" fill="#000" mask="url(#mask)"></rect>
+            <text class="text_svg" y="40">
+                <tspan x="10">we're here</tspan>
+                <tspan x="375">to make</tspan>
+            </text>
+            <text class="text_svg" y="75">
+                <tspan x="10">healthy</tspan>
+                <tspan x="265">living effortless,</tspan>
+            </text>
+            <text class="text_svg" y="110">
+                <tspan x="10">so you can</tspan>
+                <tspan x="340">live longer</tspan>
+            </text>
+            <text class="text_svg" y="145">
+                <tspan x="10">and happier</tspan>
+            </text>
+            <defs>
+                <mask id="mask">
+                    <rect width="100%" height="100%" fill="#fff"></rect>
+                    <path d="
+          M150,20 365,20 365,45 150,45z
+          M120,55 253,55 253,80 120,80z
+
+          M165,90 330,90 330,115 165,115z
+          M195,125 590,125 590,150 195,150z
+          " />
+                </mask>
+            </defs>
+        </svg>
+    </div>
+</div>
+</body>
+</html>
